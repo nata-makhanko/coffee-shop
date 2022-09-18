@@ -9,7 +9,7 @@ class Menu extends Component {
         const MenuWrapper = styled.nav`
             display: flex;
             align-items: end;
-            position: fixed;
+            position: absolute;
             margin: 50px 0 100px 150px;
                 ul {
                     display: flex;

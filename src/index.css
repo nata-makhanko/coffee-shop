@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 1440px;
   font-family: "Merienda", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
