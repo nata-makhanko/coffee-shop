@@ -1,12 +1,9 @@
 import { Component } from 'react';
+import { IconCoffee } from './iconCoffee';
 
-import SvgCoffee from './iconCoffee';
 import styled from 'styled-components';
 
-class Menu extends Component {
-
-    render() {
-        const MenuWrapper = styled.nav`
+export const MenuWrapper = styled.nav`
             display: flex;
             align-items: end;
             position: absolute;
@@ -29,6 +26,11 @@ class Menu extends Component {
                     margin: 0;
                 }
         `;
+
+class Menu extends Component {
+
+    render() {
+
         const { menu } = this.props;
         const listItems = menu.map(({ id, item, child }) => {
             if (!child) {
@@ -39,7 +41,7 @@ class Menu extends Component {
         });
         return (
             <MenuWrapper>
-                {SvgCoffee}
+                <IconCoffee />
                 <ul>
                     {listItems}
                 </ul>

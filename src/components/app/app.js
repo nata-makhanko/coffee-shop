@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Menu from '../menu/menu';
 import MainHeader from '../mainHeader/mainHeader';
 import SectionDescriptionWithoutImg from '../sectionDescriptionWithoutImg/sectionDescriptionWithoutImg';
-import CardProduct from '../cardProduct/cardProduct';
+import SectionFavorite from '../sectionFavorite/sectionFavorite';
+
+
 
 import './app.css';
 import CoffeeSolimo from '../../img/coffee_solimo.png';
@@ -48,7 +50,7 @@ class App extends Component {
                 <Menu menu={menu} />
                 <MainHeader />
                 <SectionDescriptionWithoutImg />
-                <CardProduct products={products} />
+                <SectionFavorite products={products} />
             </div>
         );
     }
