@@ -8,6 +8,9 @@ export const MenuWrapper = styled.nav`
             align-items: end;
             position: absolute;
             margin: 50px 0 100px 150px;
+                svg {
+                    fill: #FFF;
+                }
                 ul {
                     display: flex;
                     font-weight: 400;

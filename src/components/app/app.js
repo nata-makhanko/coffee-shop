@@ -3,7 +3,7 @@ import Menu from '../menu/menu';
 import MainHeader from '../mainHeader/mainHeader';
 import SectionDescriptionWithoutImg from '../sectionDescriptionWithoutImg/sectionDescriptionWithoutImg';
 import SectionFavorite from '../sectionFavorite/sectionFavorite';
-
+import Footer from '../footer/footer';
 
 
 import './app.css';
@@ -51,6 +51,7 @@ class App extends Component {
                 <MainHeader />
                 <SectionDescriptionWithoutImg />
                 <SectionFavorite products={products} />
+                <Footer menu={menu} />
             </div>
         );
     }
